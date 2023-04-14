@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: auto;
+
+    background-image: url(assets/img/img-header.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 931px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+
+    /* overflow: hidden; */
+}
+.main{
+    margin-top: 81px;
+}
+.title-about{
+    margin-bottom: 158px;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    line-height: 77px;
+    text-transform: uppercase;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 320px;
+    gap: 70px;
+}
+.text{
+    margin-left: 100px;
+    width: 900px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+.title-favorites-songs{
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 77px;
+    text-transform: uppercase;
+}
+.mp3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.favorites-songs{
+    text-align: center;
+    margin-top: 184px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 2rem;
+    border-radius: 30px;
+}
+.favorites-songs img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.description{
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+.description p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: left;
+
+}
+.duration{
+    display: flex;
+    flex-direction: column;
+}
+.bar{
+    margin-top: 5px;
+    width: 250px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+progress{
+    height: 10px;
+    width: 0;
+    background-color: rgb(63, 63, 63);
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.time{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.player{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#play-btn{
+    cursor: pointer;
+}
+#pause-btn{
+    cursor: pointer;
+}
+#like-btn{
+    cursor: pointer;
+}
+
+
+#play-btn1{
+    cursor: pointer;
+}
+#pause-btn1{
+    cursor: pointer;
+}
+#like-btn1{
+    cursor: pointer;
+}
+
+
+#play-btn2{
+    cursor: pointer;
+}
+#pause-btn2{
+    cursor: pointer;
+}
+#like-btn2{
+    cursor: pointer;
+}
+
+#play-btn3{
+    cursor: pointer;
+}
+#pause-btn3{
+    cursor: pointer;
+}
+#like-btn3{
+    cursor: pointer;
+}
+
+
+.title-favorites-videos{
+    margin-top: 185px;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 77px;
+    text-transform: uppercase;
+}
+.favorites-videos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 100px;
+}
+.two-videos h3, .two-videos p{
+    margin-left: 10px;
+}
+.two-videos h3{
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.two-videos p{
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.more-two-videos h3, .more-two-videos p{
+    margin-left: 10px;
+}
+.more-two-videos h3{
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.more-two-videos p{
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#mp4{
+    height: 430px;
+    width: 600px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#mp4-two{
+    height: 430px;
+    width: 600px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#mp4-three{
+    height: 430px;
+    width: 600px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#mp4-four{
+    height: 430px;
+    width: 600px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+.content:hover{
+    transition: all .4s;
+}
+.music1{
+    background-image: url(assets/img/musica-amorFalsificado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music2{
+    background-image: url(assets/img/album-churrasquinho2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music3{
+    background-image: url(assets/img/album-spoiler.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music4{
+    background-image: url(assets/img/album-ensaioMenosEMais.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 1900px;
+    height: 1000px;
+    max-width: 90%;
+    max-height: 90%;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 30px;
+
+    text-align: center;
+    display: none;
+}
+.modal-video{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.modal-video iframe{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+button{
+    padding: 1rem;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all .2s;
+}
+.footer{
+    height: 138px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+@media screen and (max-width: 1440px){
+    .modal-video{
+        margin-bottom: 23px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    main h2{
+        margin-left: 50px;
+    }
+
+    .about{
+        margin-left: 65px;
+    }
+
+    .about img{
+        width: 340px;
+        height: 340px;
+    }
+
+    .mp3{
+        margin-left: 20px;
+    }
+
+    main .text {
+        margin: 0 auto;
+        width: 756px;
+    }
+
+    .modal-video{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .header h1{
+        margin-left: 60px;
+    }
+    
+    .mp3{
+        margin-left: 70px;
+    }
+
+    .two-videos{
+        margin-left: 50px;
+    }
+
+    .more-two-videos{
+        margin-left: 50px;
+    }
+
+    main .text {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .modal-video{
+        margin-bottom: 20px;
+    }
+
+    .modal-video iframe{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 425px){
+    .header{
+        width: 550px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .mp3{
+        margin-left: 70px;
+    }
+
+    .modal-video{
+        margin-bottom: 100px;
+    }
+
+    .modal-video iframe{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .header h1{
+        text-align: center;
+        margin-right: 70px;
+    }
+    
+    main h2{
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .about{
+        margin-left: 150px;
+    }
+
+    .about img{
+        width: 340px;
+        height: 340px;
+    }
+
+    main .text {
+        margin: 0 auto;
+        width: 360px;
+    }
+
+    .title-favorites-songs{
+        margin: 0 auto;
+        margin-left: 90px;
+    }
+
+    .mp3{
+        margin-left: 130px;
+    }
+
+
+    .favorites-videos #mp4{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4-two{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4-three{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4-four{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .two-videos h3{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .two-videos p{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .more-two-videos h3{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .more-two-videos p{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .footer{
+        font-size: 15px;
+        width: 500px;
+        padding-right: 65px;
+    }
+}
+@media screen and (max-width: 320px) {
+    main h2{
+        margin-left: 50px;
+    }
+
+    .about{
+        margin-left: 65px;
+    }
+
+    .about img{
+        width: 340px;
+        height: 340px;
+    }
+
+    .mp3{
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4-two{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4-three{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .favorites-videos #mp4-four{
+        height: 150px;
+        width: 340px;
+        margin-left: 70px;
+    }
+
+    .two-videos h3{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .two-videos p{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .more-two-videos h3{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .more-two-videos p{
+        text-align: center;
+        margin-left: 80px;
+    }
+}
